@@ -1,0 +1,133 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+
+}
+/**toma la carpeta global*/
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Fascinate', cursive;
+}
+
+/*dimencionar contenedor */
+.contenedor{
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+
+}
+/*Estilos de colores para neustro encabezado*/
+.header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb (97, 107, 202, 0.37) 0%, rgb(17, 7, 160,0.185) 100%), url(../img/img3.jpg);
+    background-repeat: no-repead;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Estilos y dimenciones par4a las letras sobrepuestas  en el encabezado*/
+
+.head{
+padding: 0;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: left;
+color: #0000;
+}
+
+Estilos para la hambuergueza
+.hamburguer{
+    position:fixed;
+    top:30px;
+    right: 30px;
+    background: #fff;
+    width: 40px;
+    height: 40 px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgb(0, 0, 0, .5);
+
+}
+/**tenemos la tranparencia n, el fondo de la imagen y lña altura que ocupa y anchura*/
+.menu-navegacion{
+    position: fixed;
+    top: 0;
+    width: 30vw;
+    height: 100%;
+
+    background-image: linear-grandient( to top, #1f293f 0%, #272050, 100%);
+    background-image: linear-grandient( to top, 135deg, #0e173f, 0%, #03018bc5, 100%);
+}
+.spread{
+    transform: translatex(0);
+}
+.menu-navegacion a{
+    color:#fff;
+    text-decoration: none;
+}
+
+/*ESTILOS PARA LA CLASE DE TITULO*/
+
+.titulo{
+    font-size: 60 px;
+    margin-bottom:15px;
+}
+
+.copy{
+    font-weight:300;
+    font-size: 25px;
+    color: #0000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.copy2{
+    margin: 20px;
+    line-height: 1.5cm;
+    font-size: 20px;
+    color: #0000;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+
+}
+
+/*SERVICES*/
+.subtitulo{
+    color:#33afe9;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 30px;
+    margin: bottom 30px;
+    border-top-style:hidden;
+    font-family: fantasy;
+}
+
+.Referencia{
+    color:firebrick;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+}
+
+.contenedor-servicios{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+
+}
+
+.contenedor-servicios img{
+    width: 40px;
+}
+
+.check-servicio{
+    width:45%;
+}
